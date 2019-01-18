@@ -1,16 +1,6 @@
-
-# coding: utf-8
-
-# In[1]:
-
-
 import numpy as np
 import cv2
 import time
-
-
-# In[5]:
-
 
 cam = cv2.VideoCapture(0)
 
@@ -45,4 +35,3 @@ while True:
 
 cam.release()
 cv2.destroyAllWindows()
-
